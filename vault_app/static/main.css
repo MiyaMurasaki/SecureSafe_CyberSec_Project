@@ -1,0 +1,206 @@
+:root{
+    --dark: #242424;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh !important;
+}
+#my-navbar{
+    background: #242424;
+    height: 10vh;
+}
+#my-container{
+    transform: translateX(25%);
+    margin: 2rem;
+    padding: 2rem;
+}
+.my-container{
+
+    display: grid;
+    grid-template-columns: 1fr 6fr 3fr;
+    margin: 0;
+    padding: 0.5rem;
+    height: 90vh;
+    
+}
+
+.main-col{
+    width: 80vw;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.rside-col{
+    background: #242424;
+    border: #fff 5px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+}
+
+.file-row{
+    margin: 0.5rem;
+    padding: 2rem;
+    border: #242424 2px solid;
+    background: #D3D3D330
+}
+
+.my-btn{
+    background: #242424;
+}
+.my-btn > a{
+    text-decoration: none;
+    color: #fff;
+}
+.my-btn:hover {
+
+    transform: scale(1.05);
+    transition: all 100ms ease;
+}
+
+.new-btn{
+    border: solid #fff 2px;
+    background: #242424;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.new-btn >a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+
+.header-vault{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+.form-header{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.file-desc{
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.form-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.form-desc{
+    font-size: 1.5rem;
+}
+.form-content{
+
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-btn{
+    font-size: 1.5rem;
+    width: 100%;
+    text-transform: uppercase;
+    background: #2e2e2e;
+    border-radius: 00.5rem;
+    color: #fff;
+    padding: 2rem;
+}
+.container-vault-add{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vault-add{
+    
+    width: 800px;
+}
+
+
+.spl-btn > a{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1.5rem 2rem;
+    text-decoration: none;
+    border: solid #fff 2px;
+    background: #242424;
+    color: #fff;
+}
+
+.hero-btn>a {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1.5rem 2rem;
+    text-decoration: none;
+    border: solid #fff 2px;
+    background: #242424;
+    color: #fff;
+}
+.spl-btn a:hover {
+    
+    transform: scale(1.0.5);
+    transition: all 400ms ease;
+    
+}
+
+.hero-container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("hero2.jpg");
+    width: 100vw;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    z-index: 10;
+    color: white;
+}
+
+.hero-title{
+    font-size: 8rem;
+    text-transform: uppercase;
+}
+
+.hero-desc{
+    font-size: 2rem;
+    text-align: center;
+}

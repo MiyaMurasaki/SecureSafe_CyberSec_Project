@@ -1,0 +1,28 @@
+{% extends 'layout2.html' %}
+{% block content%}
+    <!-- <h1>DECRYPT</h1>
+    <form action="" enctype="multipart/form-data" method="POST">
+        <input type="file" name="file">
+        <input type="text" name="pass" required min=8>
+        <input type="submit" value="upload">
+    </form> -->
+     <div class="form-header">
+        <h1>DECRYPT</h1>
+    </div>
+    
+        <form action="" enctype="multipart/form-data" method="POST">
+        <div class="form-container">
+        <div class="form-content">
+            <input  class="file-upload" type="file" name="file">
+        <div>
+            <label for="pass">Password:</label>
+            <input class=" form-desc" type="text" name="pass" required min=8>
+        </div>
+        </div>
+        <div>
+            <input class=" form-btn" type="submit" value="SUBMIT">
+        </div>
+        </div>
+    </form>
+    
+{% endblock content%}

@@ -1,0 +1,27 @@
+{% extends "layout2.html" %}
+{% block content %}
+<div class="container-vault-add">
+    <div class="vault-add">
+        <form method="POST" action="" enctype="multipart/form-data" >
+            <div class=" form-header border-bottom mb-4">{{ legend }}</div>
+        <div class="form-container">
+        <fieldset class="form-group form-content">
+            
+            <div class=" form-desc form-group">
+                <label for="title">
+                    TITLE:
+                </label>
+                <input type="text" name="title">
+            </div>
+            <div class="form-group">
+                <input class="file-upload" type="file" name="file">
+            </div>
+        </fieldset>
+        <div class="form-group">
+        <input class=" form-btn" type="submit" value="upload">
+        </div>
+        </div>
+    </form>
+    </div>
+</div>
+{% endblock content %}
